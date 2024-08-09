@@ -21,6 +21,10 @@ body{
     background: var(--bg-color);
     color: var(--text-color);
 }
+.container{
+    margin: 0, auto;
+    max-width:96%;
+}
 header{
     position: fixed;
     width: 100%;
@@ -191,7 +195,7 @@ section{
 }
 .services-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px,auto));
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
