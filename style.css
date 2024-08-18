@@ -335,3 +335,8 @@ section{
     transform: scale(1.1);
     cursor: pointer;
 }
+ @media screen and (max-width:640px){
+    .home{
+        width: 700px;
+    }
+ }
